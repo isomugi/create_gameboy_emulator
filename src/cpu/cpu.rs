@@ -8,6 +8,6 @@ pub struct Cpu{
     ctx: Ctx,
 }
 
-pub fn emulate_cycle(&mut self, bus: &mut Peripherais){
+pub fn emulate_cycle(&mut self, bus: &mut Peripherals){
     self.decode(bus);
 }
